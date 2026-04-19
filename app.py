@@ -3,4 +3,4 @@ st.title('Hello Streamlit')
 name = st.text_input('Enter username')
 button = st.button('Greet')
 if button:
-  st.markdown('Hello, '+name+'! Welcome to Streamlit')
+  st.write('Hello, '+name+'! Welcome to Streamlit')
